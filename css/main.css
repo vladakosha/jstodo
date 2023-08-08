@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toDoItem{
+    height: 20px;
+    padding: 5px 30px;
+    border: 1px solid rgb(241, 178, 178);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.completed{
+    background-color: rgb(239, 209, 194);
+    text-decoration: line-through;
+}
